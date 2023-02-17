@@ -1,0 +1,26 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid fuchsia;
+    min-height: 400px;
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 780px) {
+    img:last-child {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}

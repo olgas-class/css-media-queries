@@ -1,0 +1,19 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid fuchsia;
+    background-color: blue;
+    min-height: 400px;
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .container {
+        background-color: fuchsia;
+    }
+}

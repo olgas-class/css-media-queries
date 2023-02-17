@@ -1,0 +1,39 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+}
+
+.blue-box {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+.green-box {
+    display: none;
+    width: 70%;
+    height: 200px;
+    background-color: green;
+}
+
+.white-box {
+    margin: 20px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+
+@media screen and (min-width: 580px) {
+
+    .blue-box {
+        width: 30%;
+    }
+
+    .green-box {
+        display: block;
+    }
+}
