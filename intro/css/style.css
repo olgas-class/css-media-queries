@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    background-color: lightblue;
+    min-height: 500px;
+}
+
+@media screen and (max-width: 700px) { 
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 60%;
+    }
+}
