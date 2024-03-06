@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Desktop first */
+/* .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blue;
+    height: 300px;
+} */
+
+/* Da 750px in giù il colore deve diventare fucsia */
+/* @media screen and (max-width: 750px) {
+    .container {
+        background-color: fuchsia;
+    }
+} */
+
+/* 
+@media screen and (max-width: 420px) {
+    .container {
+        background-color: green;
+    }
+} */
+
+/* Mobile first */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: green;
+    height: 300px;
+}
+
+@media screen and (min-width: 420px) {
+    .container {
+        background-color: fuchsia;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .container {
+        background-color: blue;
+    }
+}

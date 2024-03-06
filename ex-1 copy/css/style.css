@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid blue;
+    width: 90%;
+    height: 500px;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+img {
+    border: 1px solid red;
+    margin-right: 10px;
+}
+
+/* 780 */
+@media screen and (max-width: 780px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+
+    img {
+        width: 60%;
+    }
+}

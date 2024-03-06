@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MOBILE FIRST */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col {
+        width: 48%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .col {
+        width: 23%;
+    }
+}
