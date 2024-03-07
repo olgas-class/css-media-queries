@@ -1,0 +1,14 @@
+@media screen and (min-width: 780px) {
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style-type: none;
+  }
+
+  .nav-menu li {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+  }
+}
